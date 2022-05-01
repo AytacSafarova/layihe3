@@ -1,0 +1,299 @@
+@media only screen and (min-width:320px) and (max-width:600px){
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    
+    }
+    
+    .div-header {
+        margin-top: 9px;
+        margin-left: 10px;
+        padding-right: 35px;
+        background-color: #F5F5F6;
+        height: 33px;
+        width: 70px;
+        border-radius: 4px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 13px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding-left: 15px;
+    
+    }
+    
+    .data1 {
+        display: block;
+        position: absolute;
+        bottom: 5px;
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #c6c6c6;
+    }
+    
+    .data2 {
+        display: block;
+        position: absolute;
+        bottom: 5px;
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #c6c6c6;
+    }
+    
+    .inputcontainer1 {
+        margin-top: 20px;
+        width: 259px;
+        height: 102px;
+        border: 1px solid #e5e5e5;
+        box-sizing: border-box;
+        border-radius: 3px;
+        position: relative;
+        margin-left: 225px;
+    }
+    
+    .inputcontainer2 {
+        margin-top: 20px;
+        width: 259px;
+        height: 102px;
+        border: 1px solid #e5e5e5;
+        box-sizing: border-box;
+        border-radius: 3px;
+        position: relative;
+        margin-left: 130px;
+    }
+    h1 {
+        margin-top: 56px;
+    margin-left: 200px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 42px;
+    }
+    
+    .p1 {
+        margin-bottom: 10px;
+        margin-left: 225px;
+        Font-family: Roboto;
+        Font-style: Regular;
+        Font-size: 12px;
+        Fill: Solid;
+        color: #9F9F9F;
+    }
+    
+    .p2 {
+        margin-bottom: 10px;
+        margin-left: 130px;
+        Font-family: Roboto;
+        Font-style: Regular;
+        Font-size: 12px;
+        Line-height: 14px;
+        Line-height: 100%;
+        Vertical-align: Center;
+        Fill: Solid;
+        color: #9F9F9F;
+    }
+    
+    
+    .container1 {
+        height: 50px;
+        width: 1152px;
+        background: #F5F5F6;
+        display: flex;
+    }
+    
+    .logo {
+    
+        width: 50px;
+        height: 23px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    
+    .ul1 {
+        margin-top: 17px;
+    
+        display: flex;
+        margin-left: 10px;
+    
+    }
+    
+    .ul1 li {
+        list-style-type: none;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 13px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.06em;
+    
+        color: #959BA4;
+    }
+    
+    .one {
+        margin-right: 5px;
+    
+    }
+    
+    .two {
+        margin-right: 5px;
+    }
+    
+    .three {
+        margin-right: 5px;
+    }
+    
+    .four {
+        margin-right: 5px;
+    
+    
+    }
+    
+    .five {
+        margin-right: 7px;
+    }
+    
+    .six {
+        margin-right: 10px;
+    }
+    
+    
+    
+    .container2 {
+        margin-top: 33px;
+    }
+    
+    .secim2 {
+        display: flex;
+        height: 30px;
+        margin-left: 130px;
+    
+    }
+    
+    .div1 {
+        display: inline-block;
+    }
+    
+    .div2 {
+        display: inline-block;
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+    
+    .secim1 {
+        margin-left: 225px;
+        display: flex;
+        height: 30px;
+    }
+    
+    
+    input {
+    
+        height: 40px;
+        width: 229px;
+        font-family: "Roboto";
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        border: none;
+        border-radius: 3px;
+        outline: none;
+        padding-left: 7px;
+    
+        color: #000000;
+    
+    }
+    
+    #input1 {
+        padding-top: 10px;
+    }
+    
+    
+    .usd,
+    .eur,
+    .gpb,
+    .rub {
+    
+        border: 1px solid #E5E5E5;
+        width: 64px;
+        color: #C6C6C6;
+        display: inline-block;
+        font-weight: bold;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        align-items: center;
+        text-align: center;
+        padding-top: 5px;
+    
+    }
+    
+    .benovseyi1 {
+        font-weight: bold;
+        border: 1px solid #E5E5E5;
+        width: 64px;
+        display: inline-block;
+        background-color: #833AE0;
+        color: white;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        align-items: center;
+        text-align: center;
+        padding-top: 5px;
+    
+    }
+    
+    .benovseyi2 {
+        font-weight: bold;
+        border: 1px solid #E5E5E5;
+        width: 64px;
+        display: inline-block;
+        background-color: #833AE0;
+        color: white;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        align-items: center;
+        text-align: center;
+        padding-top: 5px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
